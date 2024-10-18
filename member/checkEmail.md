@@ -1,27 +1,21 @@
 # 이메일 중복체크 API
 
-## /process/checkEmail
+## /process/checkEmail?email=
 
 ### requset
 
 - METHOD : GET
-- parameter : none
+- parameter : email
 
 ---
 
 ### headers
 
-'Content-Type': 'application/json'
+none
 
 ### Request body
 
-Example Value
-
-```
-{
-	'email': 'string' // 확인하려는 이메일
-};
-```
+none
 
 ---
 
@@ -31,7 +25,7 @@ Example Value
 
 ```
 {
-  "exists": true// 이메일이 존재하면 true, 존재하지 않으면 false
+  "exists": boolean
 }
 ```
 
