@@ -5,7 +5,7 @@
 ### requset
 
 - METHOD : GET
-- parameter : none
+- parameter : num
 
 ---
 
@@ -14,11 +14,9 @@
 'Content-Type': 'application/json'
 
 ### Request body
-```
-{
-    'num' : 'number'
-}
-```
+
+none
+
 ---
 
 ### Response
