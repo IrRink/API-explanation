@@ -20,7 +20,7 @@
 {
     'title : 'string',
     'subtitle' : 'string',
-    'bord_text' : 'string'
+    'board_text' : 'string'
 }
 ```
 
