@@ -19,11 +19,11 @@ Example Value
 
 ```
 {
-	'adminId' : 'string',
+	'email' : 'string',
 	'adminName' : 'string',
 	'adminAge' : 'string',
 	'password' : 'string',
-	'isAdmin' : 'string',
+	'isAdmin' : 'boolean',
 };
 ```
 
