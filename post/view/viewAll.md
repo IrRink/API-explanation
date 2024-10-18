@@ -31,7 +31,7 @@
         'subtitle' : 'string',
         'id': 'string',
         'uptime' : 'string',
-        'bord_text' : 'string'
+        'board_text' : 'string'
     }, ...
 ]
 ```

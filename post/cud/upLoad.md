@@ -13,14 +13,13 @@
 
 'Content-Type': 'application/json'
 
-
 ### Request body
 
 ```
 {
     'title : 'string',
     'subtitle' : 'string',
-    'bord_text' : 'string'
+    'board_text' : 'string'
 }
 ```
 
