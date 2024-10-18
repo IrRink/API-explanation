@@ -11,7 +11,7 @@
 
 ### headers
 
-'Content-Type': 'application/json'
+'Content-Type': 'application/x-www-form-urlencoded'
 
 ### Request body
 
@@ -19,7 +19,7 @@ Example Value
 
 ```
 {
-	'adminId' : 'string',
+	'email' : 'string',
 	'password' : 'string',
 	'isAdmin' : 'boolean',
 };
