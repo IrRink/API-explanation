@@ -1,6 +1,6 @@
 # 관리자 로그인 API
 
-## /process/loginadmin
+## /process/login/admin
 
 ### requset
 
