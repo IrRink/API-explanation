@@ -13,7 +13,7 @@
 
 ### header
 
-- none
+- 없음
 
 ### Request body
 
