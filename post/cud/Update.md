@@ -1,11 +1,11 @@
 # content 게시글 업데이트 API
 
-## /board/update-post
+## /board/update-post/:num
 
 ### requset
 
 - METHOD : post
-- parameter : none
+- parameter : num
 
 ---
 
@@ -17,7 +17,6 @@
 ### Request body
 ```
 {
-    'num' : 'number',
     'title : 'string',
     'subtitle' : 'string',
     'bord_text' : 'string'

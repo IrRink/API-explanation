@@ -1,11 +1,11 @@
 # content 게시글 삭제 API
 
-## /board/delete
+## /board/delete/:num
 
 ### requset
 
 - METHOD : delete
-- parameter : none
+- parameter : num
 
 ---
 
@@ -16,11 +16,7 @@
 
 ### Request body
 
-```
-{
-    'num' : 'number'
-}
-```
+none
 
 ---
 
