@@ -2,8 +2,6 @@
 
 ## /blogbord
 
----
-
 ### requset
 
 - METHOD : GET
@@ -11,33 +9,37 @@
 
 ---
 
-### header
+### headers
 
-- 없음
+없음
 
 ### Request body
 
-Example value
+없음
+
+---
 
 ### Response
 
-##### 성공 // 200
+#### 성공 // 200
 
 ```
 [
     {
-        'num' : 'number';
-        'title : 'string';
-        'subtitle' : 'string';
-        'id': 'string';
-        'uptime' : 'string';
-        'bord_text' : 'string';
+        'num' : 'number',
+        'title : 'string',
+        'subtitle' : 'string',
+        'id': 'string',
+        'uptime' : 'string',
+        'bord_text' : 'string',
     }
 ]
 ```
 
-##### 실패 // 500
+#### 실패 // 500
 
+```
 {
-message: '게시물 조회 중 오류가 발생했습니다.'
+    message: '게시물 조회 중 오류가 발생했습니다.'
 }
+```
