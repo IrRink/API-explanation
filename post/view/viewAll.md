@@ -1,6 +1,6 @@
 # content 전체 조회 API
 
-## /blogbord
+## /board/blogbaord
 
 ### requset
 
@@ -11,7 +11,7 @@
 
 ### headers
 
-없음
+'Content-Type': 'application/json'
 
 ### Request body
 
@@ -31,8 +31,8 @@
         'subtitle' : 'string',
         'id': 'string',
         'uptime' : 'string',
-        'bord_text' : 'string',
-    }
+        'bord_text' : 'string'
+    }, ...
 ]
 ```
 
