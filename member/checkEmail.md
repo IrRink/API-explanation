@@ -19,7 +19,7 @@ Example Value
 
 ```
 {
-	'email': 'string'
+	'email': 'string' // 확인하려는 이메일
 };
 ```
 
@@ -31,7 +31,7 @@ Example Value
 
 ```
 {
-  "exists": true
+  "exists": true// 이메일이 존재하면 true, 존재하지 않으면 false
 }
 ```
 
