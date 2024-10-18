@@ -20,7 +20,7 @@ Example Value
 {
 	'email' : 'string',
 	'password' : 'string',
-	'isAdmin' : 'boolean',
+	'isAdmin' : 'string',
 };
 ```
 
