@@ -1,6 +1,6 @@
 # content 개별 조회 API
 
-## /board/blogbaord/:num
+## /board/blogboard/:num
 
 ### requset
 
