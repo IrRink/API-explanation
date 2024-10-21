@@ -24,7 +24,7 @@ Authorization: Bearer YOUR_REFRESH_TOKEN
 
 ### Response
 
-#### 성공 // 201
+#### 성공 // 200
 
 ```
 {
