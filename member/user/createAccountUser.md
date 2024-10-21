@@ -19,7 +19,7 @@ Example Value
 
 ```
 {
-	'adminEmail' : 'string',
+	'email' : 'string',
 	'adminName' : 'string',
 	'adminAge' : 'string',
 	'password' : 'string',
