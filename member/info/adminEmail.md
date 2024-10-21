@@ -1,4 +1,4 @@
-# 로그아웃 API
+# 관리자 이메일 API
 
 ## /process/adminEmail
 
