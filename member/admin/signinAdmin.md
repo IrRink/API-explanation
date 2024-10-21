@@ -32,8 +32,15 @@ Example Value
 
 ```
 {
-  'message': '관리자 로그인 성공', accessToken, refreshToken, user
+  "message": "관리자 로그인 성공",
+  "token": "your_access_token",
+  "admin": {
+    "id": 1,
+    "name": "관리자 이름",
+    "email": "admin@example.com"
+  }
 }
+
 ```
 
 #### 실패 // 400
