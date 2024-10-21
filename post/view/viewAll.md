@@ -1,6 +1,6 @@
 # content 전체 조회 API
 
-## /board/blogbaord
+## /board/blogboard
 
 ### requset
 
