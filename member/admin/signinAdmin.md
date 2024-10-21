@@ -28,7 +28,7 @@ Example Value
 
 ### Response
 
-#### 성공 // 201
+#### 성공 // 200
 
 ```
 {
