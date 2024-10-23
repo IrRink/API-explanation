@@ -1,6 +1,6 @@
 # 토큰만료 검증 API
 
-## /process/refresh-token
+## /info/refresh-token
 
 ### requset
 
