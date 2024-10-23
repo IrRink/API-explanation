@@ -1,6 +1,6 @@
 # 관리자 로그인 API
 
-## /admin/login
+## /api/admin/login
 
 ### requset
 
