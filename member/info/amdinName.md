@@ -1,6 +1,6 @@
 # 관리자 이름 조회 API
 
-## /process/adminname
+## /info/adminname
 
 ### requset
 
