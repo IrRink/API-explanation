@@ -1,6 +1,6 @@
 # 관리자 회원가입 API
 
-## /process/adduseroramdin
+## /admin/signup
 
 ### requset
 
