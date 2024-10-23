@@ -1,6 +1,6 @@
 # 로그아웃 API
 
-## /useroradmin/logout
+## /user/logout
 
 ### requset
 
