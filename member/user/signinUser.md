@@ -1,6 +1,6 @@
 # 유저 로그인 API
 
-## /process/login
+## /user/login
 
 ### requset
 
