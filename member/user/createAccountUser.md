@@ -1,6 +1,6 @@
 # 유저 회원가입 API
 
-## /user/signup
+## /api/user/signup
 
 ### requset
 
