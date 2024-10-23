@@ -1,6 +1,6 @@
 # 이메일 중복체크 API
 
-## /process/checkEmail?email=
+## /user/checkEmail?email=
 
 ### requset
 
