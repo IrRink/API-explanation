@@ -1,6 +1,6 @@
 # content 게시글 업로드 API
 
-## /board/add-post
+## /posts
 
 ### requset
 
@@ -18,8 +18,8 @@
 ```
 {
     'title : 'string',
-    'subtitle' : 'string',
-    'board_text' : 'string'
+    'subTitle' : 'string',
+    'boardText' : 'string'
 }
 ```
 

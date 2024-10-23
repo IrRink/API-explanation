@@ -1,6 +1,6 @@
 # content 개별 조회 API
 
-## /board/blogboard/:num
+## /posts/:num
 
 ### requset
 
@@ -27,10 +27,10 @@ none
 {
     'num' : 'number',
     'title : 'string',
-    'subtitle' : 'string',
-    'id': 'string',
+    'subTitle' : 'string',
+    'boardText' : 'string',
     'uptime' : 'string',
-    'board_text' : 'string'
+    'writer': 'string'
 }
 ```
 

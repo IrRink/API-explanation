@@ -1,10 +1,10 @@
 # content 게시글 업데이트 API
 
-## /board/update-post/:num
+## /post/:num
 
 ### requset
 
-- METHOD : post
+- METHOD : put
 - parameter : num
 
 ---
@@ -20,8 +20,8 @@ Example Value
 ```
 {
     'title : 'string',
-    'subtitle' : 'string',
-    'board_text' : 'string'
+    'subTitle' : 'string',
+    'boardText' : 'string'
 }
 ```
 

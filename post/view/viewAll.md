@@ -1,6 +1,6 @@
 # content 전체 조회 API
 
-## /board/blogboard
+## /posts
 
 ### requset
 
@@ -26,12 +26,12 @@ none
 ```
 [
     {
-        'num' : 'number',
-        'title : 'string',
-        'subtitle' : 'string',
-        'id': 'string',
-        'uptime' : 'string',
-        'board_text' : 'string'
+    'num' : 'number',
+    'title : 'string',
+    'subTitle' : 'string',
+    'boardText' : 'string',
+    'uptime' : 'string',
+    'writer': 'string'
     }, ...
 ]
 ```
