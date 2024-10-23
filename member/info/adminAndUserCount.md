@@ -1,6 +1,6 @@
 # 관리자 정보 조회 API
 
-## /info/adminAndUserCount
+## /api/info/adminAndUserCount
 
 ### requset
 
