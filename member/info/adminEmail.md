@@ -1,6 +1,6 @@
 # 관리자 이메일 API
 
-## /process/adminEmail
+## /info/adminEmail
 
 ### requset
 
