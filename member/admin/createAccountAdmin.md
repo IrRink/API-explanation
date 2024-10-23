@@ -1,6 +1,6 @@
 # 관리자 회원가입 API
 
-## /admin/signup
+## /api/admin/signup
 
 ### requset
 
