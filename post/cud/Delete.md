@@ -11,7 +11,7 @@
 
 ### headers
 
-none
+- 'Authorization': Bearer jwt.token.here
 
 
 ### Request body
