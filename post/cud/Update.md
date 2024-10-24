@@ -12,6 +12,7 @@
 ### headers
 
 'Content-Type': 'application/json'
+'Authorization': Bearer jwt.token.here
 
 ### Request body
 
