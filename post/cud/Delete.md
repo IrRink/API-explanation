@@ -1,6 +1,6 @@
 # content 게시글 삭제 API
 
-## /posts/:num
+## /api/board/:num
 
 ### requset
 

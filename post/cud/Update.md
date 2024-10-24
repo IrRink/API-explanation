@@ -1,6 +1,6 @@
 # content 게시글 업데이트 API
 
-## /post/:num
+## /api/board/:num
 
 ### requset
 
@@ -20,8 +20,8 @@ Example Value
 ```
 {
     'title : 'string',
-    'subTitle' : 'string',
-    'boardText' : 'string'
+    'sub_title' : 'string',
+    'board_text' : 'string'
 }
 ```
 
