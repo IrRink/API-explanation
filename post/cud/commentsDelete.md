@@ -1,11 +1,11 @@
-# content 게시글 삭제 API
+# 댓글 삭제 API
 
-## /api/board/:num
+## /api/comments/:commentId
 
 ### requset
 
 - METHOD : delete
-- parameter : num
+- parameter : commentId
 
 ---
 
@@ -13,7 +13,6 @@
 
 - 'Content-Type': 'application/json'
 - 'Authorization': Bearer jwt.token.here
-
 
 ### Request body
 
@@ -27,7 +26,7 @@ none
 
 ```
 {
-    message: '게시물이 성공적으로 삭제되었습니다!'
+    message: '댓글이 성공적으로 삭제되었습니다!'
 }
 ```
 
@@ -35,6 +34,6 @@ none
 
 ```
 {
-    message: '게시물 삭제 중 오류가 발생했습니다.'
+    message: '댓글 삭제 중 오류가 발생했습니다.'
 }
 ```
