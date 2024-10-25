@@ -33,13 +33,17 @@ Example Value
 ```
 
 {
-  'message': '관리자 로그인 성공',
-   'token' : '',
-    'admin:user' {
+  
+    'admin' {
+	'age':'',
+	'created_date':'',
 	'email':'',
+	'name':'',
 	'password':'',
-	'isadmin':'',
+	'role':'',
 	},
+    'message': '관리자 로그인 성공',
+   'token' : '',
 }
 
 ```
