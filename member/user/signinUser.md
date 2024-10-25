@@ -33,7 +33,9 @@ Example Value
 
 ```
 {
-  'message': '유저 로그인 성공', token, user
+  'message': '유저 로그인 성공',
+   'token' : '',
+    'user' : '',
 }
 ```
 
