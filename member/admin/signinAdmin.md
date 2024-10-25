@@ -31,8 +31,15 @@ Example Value
 #### 성공 // 200
 
 ```
+
 {
-  "message": "관리자 로그인 성공",token,admin:user
+  'message': '관리자 로그인 성공',
+   'token' : '',
+    'admin:user' {
+	'email':'',
+	'password':'',
+	'isadmin':'',
+	},
 }
 
 ```
