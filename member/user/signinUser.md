@@ -1,6 +1,6 @@
 # 유저 로그인 API
 
-## /api/user/login
+## /api/users/login
 
 ### requset
 
