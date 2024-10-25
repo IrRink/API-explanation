@@ -36,9 +36,12 @@ Example Value
   'message': '유저 로그인 성공',
    'token' : '',
     'user' {
+	'age':'',
+	'created_date':'',
 	'email':'',
+	'name':'',
 	'password':'',
-	'isadmin':'',
+	'role':'',
 	},
 }
 ```
