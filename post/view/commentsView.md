@@ -25,7 +25,7 @@ none
 
 ```
 [
-    {
+  {
     'id': 'number',
     'comment_text': 'string',
     'writer_name': 'string',
@@ -36,10 +36,11 @@ none
 ]
 ```
 
-#### 실패 // 500
+#### 실패
 
 ```
 {
-    message: '댓글 조회 중 오류가 발생했습니다.'
+  status: 500
+  message: '댓글 조회 중 오류가 발생했습니다.'
 }
 ```

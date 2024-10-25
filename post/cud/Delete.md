@@ -1,6 +1,6 @@
 # content 게시글 삭제 API
 
-## /api/board/:num
+## /api/boards/:num
 
 ### requset
 
@@ -31,10 +31,11 @@ none
 }
 ```
 
-#### 실패 // 500
+#### 실패
 
 ```
 {
+    status: 500
     message: '게시물 삭제 중 오류가 발생했습니다.'
 }
 ```

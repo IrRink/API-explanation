@@ -1,6 +1,6 @@
 # content 전체 조회 API
 
-## /api/board
+## /api/boards
 
 ### requset
 
@@ -21,7 +21,7 @@ none
 
 ### Response
 
-#### 성공 // 200
+#### 성공
 
 ```
 [
@@ -36,10 +36,11 @@ none
 ]
 ```
 
-#### 실패 // 500
+#### 실패
 
 ```
 {
+    status: 500
     message: '게시물 조회 중 오류가 발생했습니다.'
 }
 ```

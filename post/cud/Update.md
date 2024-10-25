@@ -1,6 +1,6 @@
 # content 게시글 업데이트 API
 
-## /api/board/:num
+## /api/boards/:num
 
 ### requset
 
@@ -38,10 +38,11 @@ Example Value
 }
 ```
 
-#### 실패 // 400
+#### 실패
 
 ```
 {
-    message: '모든 필드를 입력해야 합니다.' || '게시물 업데이트 중 오류가 발생했습니다.'
+    status: 400
+    message: '게시물 업데이트 중 오류가 발생했습니다.'
 }
 ```
