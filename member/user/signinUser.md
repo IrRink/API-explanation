@@ -35,7 +35,11 @@ Example Value
 {
   'message': '유저 로그인 성공',
    'token' : '',
-    'user' : '',
+    'user' {
+	'email':'',
+	'password':'',
+	'isadmin':'',
+	},
 }
 ```
 
