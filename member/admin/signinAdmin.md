@@ -32,7 +32,7 @@ Example Value
 
 ```
 {
-  "message": "관리자 로그인 성공"
+  "message": "관리자 로그인 성공",token,admin:user
 }
 
 ```
