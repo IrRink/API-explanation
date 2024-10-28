@@ -11,7 +11,7 @@
 
 ### headers
 
-none
+- 'Content-Type': 'application/json'
 
 ### Request body
 
