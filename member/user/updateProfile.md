@@ -12,6 +12,7 @@
 ### headers
 
 Authorization: Bearer YOUR_REFRESH_TOKEN
+
 'Content-Type': 'application/json'
 
 ### Request body
