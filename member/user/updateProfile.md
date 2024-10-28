@@ -1,6 +1,6 @@
 # 내 정보수정 API
 
-## /api/users/updateProfile
+## /api/info/auth
 
 ### requset
 
