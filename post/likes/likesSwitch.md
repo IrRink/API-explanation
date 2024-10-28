@@ -20,7 +20,7 @@ Example Value
 
 ```
 {
-    'target_id : 'string',
+    'target_id : 'number',
     'target_type' : 'string'
 }
 ```
@@ -38,7 +38,7 @@ Example Value
 ```
 ```
 {
-    message: '좋아요가 제거 되었습니다.'
+    message: '좋아요가 제거되었습니다.'
 }
 ```
 
