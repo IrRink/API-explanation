@@ -1,10 +1,10 @@
-# 내 정보수정 API
+# 회원삭제
 
 ## /api/info/auth
 
 ### requset
 
-- METHOD : PUT
+- METHOD : DELETE
 - parameter : none
 
 ---
@@ -13,18 +13,7 @@
 
 Authorization: Bearer YOUR_REFRESH_TOKEN
 
-'Content-Type': 'application/json'
-
 ### Request body
-explane : 빈값을 넣으면 이전 데이터와 동기화
-```
-{
-  "email": string, 
-  "name": string,
-  "age": number,
-  "password":"string",
-}
-```
 
 없음
 
@@ -36,21 +25,31 @@ explane : 빈값을 넣으면 이전 데이터와 동기화
 
 ```
 {
-  "message": "사용자 정보가 성공적으로 수정되었습니다. 다시 로그인해주세요."
+  "message": "회원 정보가 성공적으로 삭제되었습니다.",
 }
 ```
+####실패//400
+
+```
+{
+  "error": "이메일이 필요합니다."
+}
+```
+####실패//403
+
+```
+{
+  "error": "유효하지 않은 토큰입니다."
+}
+```
+
 ####실패//404
 
 ```
-사용자를 찾을 수 없습니다.
-```
-
-
-#### 실패 // 500
-```
 {
-  "message": "사용자 정보 수정 중 오류 발생"
+  "error": "삭제할 사용자를 찾을 수 없습니다."
 }
 ```
+
 
 
