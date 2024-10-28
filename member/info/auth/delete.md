@@ -28,14 +28,14 @@ Authorization: Bearer YOUR_REFRESH_TOKEN
   "message": "회원 정보가 성공적으로 삭제되었습니다.",
 }
 ```
-###실패//400
+#### 실패//400
 
 ```
 {
   "error": "이메일이 필요합니다."
 }
 ```
-###실패//403
+#### 실패//403
 
 ```
 {
@@ -43,7 +43,7 @@ Authorization: Bearer YOUR_REFRESH_TOKEN
 }
 ```
 
-###실패//404
+#### 실패//404
 
 ```
 {
