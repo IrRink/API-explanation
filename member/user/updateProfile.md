@@ -1,4 +1,4 @@
-# 내 정보조회 API
+# 내 정보수정 API
 
 ## /api/users/updateProfile
 
