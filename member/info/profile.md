@@ -1,6 +1,6 @@
 # 내 정보조회 API
 
-## /api/info/profile
+## /api/info/auth
 
 ### requset
 
