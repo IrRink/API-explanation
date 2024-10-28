@@ -4,7 +4,7 @@
 
 ### requset
 
-- METHOD : GET
+- METHOD : PUT
 - parameter : none
 
 ---
