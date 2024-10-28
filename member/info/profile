@@ -11,7 +11,7 @@
 
 ### headers
 
-없음
+Authorization: Bearer YOUR_REFRESH_TOKEN
 
 ### Request body
 
@@ -26,14 +26,22 @@
 
 ```
 {
-  "adminName": "관리자 이름" 
+  "message": "사용자 정보 조회 성공",
+  "user": {
+    "email": "",
+    "name": "",
+    "age": ,
+    "password": "",
+    "role": "",
+    "created_date": ""
+  }
 }
 ```
 
 #### 실패 // 500
 ```
 {
-  "error": "관리자 이름을 가져오는 중 오류 발생"
+  "message": "사용자 정보 조회 중 오류가 발생했습니다."
 }
 ```
 
