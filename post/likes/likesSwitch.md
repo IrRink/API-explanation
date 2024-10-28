@@ -1,6 +1,6 @@
 # 좋아요 추가및 취소 API
 
-## /api/boards/:num
+## /api/likes
 
 ### requset
 
