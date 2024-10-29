@@ -19,12 +19,14 @@ Example Value
 
 ```
 {
-	'email' : 'string',
-	'adminName' : 'string',
-	'adminAge' : 'string',
-	'password' : 'string',
-	'isAdmin' : 'string',
-};
+    "email": "string",
+    "name": "string",
+    "age": "string",
+    "password": "string",
+    "securityQuestion": "string",
+    "securityAnswer": "string",
+    "isAdmin": "boolean"
+}
 ```
 
 ---
