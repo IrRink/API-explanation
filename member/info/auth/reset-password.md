@@ -17,7 +17,9 @@ Content-Type: application/json
 
 ```
 {
-  "email": "user@example.com"
+  "email": "사용자 이메일",
+  "securityQuestion": "사용자의 보안 질문",
+  "securityAnswer": "사용자의 보안 답변"
 }
 ```
 
@@ -46,7 +48,7 @@ Content-Type: application/json
 
 ```
 {
-  "error": "사용자를 찾을 수 없습니다."
+  "error": "이메일, 보안 질문 또는 답변이 일치하지 않습니다."
 }
 ```
 
