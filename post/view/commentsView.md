@@ -28,10 +28,9 @@
   {
     'id': 'number',
     'comment_text': 'string',
-    'writer_name': 'string',
-    'writer_email': 'string',
-    'board_id': 'number',
-    'time': 'string'
+    'user_id': 'number',
+    'uptime': 'string',
+    'name': 'string',
   }, ...
 ]
 ```

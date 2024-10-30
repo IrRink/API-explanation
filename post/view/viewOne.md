@@ -25,12 +25,12 @@ none
 
 ```
 {
-    'num' : 'number',
+    'id' : 'number',
     'title : 'string',
     'sub_title' : 'string',
     'board_text' : 'string',
     'uptime' : 'string',
-    'writer': 'string'
+    'name': 'string'
 }
 ```
 
