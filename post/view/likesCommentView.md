@@ -1,11 +1,11 @@
 # 좋아요 조회 API
 
-## /api/likes/:target_type/:target_id
+## /api/likes/comments/:commentid
 
 ### requset
 
 - METHOD : GET
-- parameter : target_type, target_id
+- parameter : commentid
 
 ---
 

@@ -1,11 +1,11 @@
-# 좋아요 추가및 취소 API
+# comment 좋아요 추가및 취소 API
 
-## /api/likes
+## /api/likes/comments/:commentid'
 
 ### requset
 
 - METHOD : post
-- parameter : num
+- parameter : commentid
 
 ---
 
@@ -16,14 +16,7 @@
 
 ### Request body
 
-Example Value
-
-```
-{
-    'target_id : 'number',
-    'target_type' : 'string'
-}
-```
+없음
 
 ---
 
